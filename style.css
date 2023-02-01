@@ -1,0 +1,307 @@
+/* HTML */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+
+  font-weight: 900;
+  font-size: 400%;
+  line-height: 1.5;
+  padding: 5% 0 7% 0;
+}
+
+h2 {
+
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* HEADINGS */
+.big-heading {}
+
+
+/* --------------------------------- */
+
+
+/* Title */
+
+#title {
+ 
+  height: 700px;
+}
+
+.container-fluid {
+  padding: 2% 14% 0 14%;
+}
+
+/* --------------------------------- */
+
+
+/* SECTIONS */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+
+}
+
+
+/* Nav-Bar  */
+
+.navbar-brand {
+  font-size: 250%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* --------------------------------- */
+
+
+/* Download-Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* --------------------------------- */
+
+
+/* Title-Image */
+
+.title-image {
+  padding-left: 2%;
+  padding-top: 0;
+  padding-bottom: 10%;
+  width: 23%;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  position: absolute;
+
+}
+
+/* --------------------------------- */
+
+
+/* Features */
+#features {
+  padding: 8% 5%;
+  position: relative;
+}
+
+.heading-feature {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.sub-feature {
+  color: #8f8f8f;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  padding-left: 36%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* --------------------------------- */
+
+
+/* Testimonials */
+
+#testimonials {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  padding-bottom: 0px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  padding: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* --------------------------------- */
+
+
+/* PRICING-SECTION */
+
+#pricing {
+  padding: 40px 100px 100px 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-header {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.pricing-paragraph {
+  text-align: center;
+  color: #8f8f8f;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-para {
+  color: #8f8f8f;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+.card-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card1 {
+  padding-bottom: 3%;
+}
+
+.card2 {
+  padding-bottom: 3%;
+}
+
+.card3 {
+  padding-bottom: 3%;
+}
+
+.card-1-lastline {
+  padding-bottom: 11%;
+}
+
+.card-2-lastline {
+  padding-bottom: 11%;
+}
+
+.card-3-lastline {
+  padding-bottom: 1%;
+}
+
+/* --------------------------------- */
+
+
+/* cta */
+#cta {
+  text-align: center;
+  padding: 7% 0 3% 0;
+  background-color: #ff4c68;
+}
+
+.cta-para {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 300%;
+  line-height: 1.5;
+}
+
+.cta-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* --------------------------------- */
+
+
+/* footer */
+#footer {
+  padding: 4% 0 1% 0;
+  text-align: center;
+  color: #8f8f8f;
+  font-weight: bold;
+}
+
+.brands {
+  padding: 1% 1% 1%;
+}
+
+/* MEDIA */
+
+@media (max-width:1028px) {
+
+  #title {
+    height: 1350px;
+    text-align: center;
+  }
+
+  .title-image {
+    width: 55%;
+    position: static;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+  }
+}
